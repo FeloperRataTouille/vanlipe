@@ -1,0 +1,81 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.cabecalho{
+	height: 100px;
+	width: 100%;
+	background-color: lightcoral;
+	position: absolute;
+}
+
+.meio{
+	height: 700px;
+	width: 100%;
+	background-color: #FBE5E0;
+}
+
+.rodape{
+	height: 300px;
+	width: 100%;
+	background-color: lightcoral;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.left img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: relative;
+	display: block;
+	
+	
+}
+
+.right img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: relative;	
+	display: block;
+}
+
+
+
+.meio img{
+	height: 300px;
+	width: 300px;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 3%;
+	position: relative;
+}
+
+p{
+	position: relative;
+	top: 80px;
+	display: block;
+	text-align: center;
+	font: Times;
+	font-size: 20px;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	color: white;
+}
+
+
+
